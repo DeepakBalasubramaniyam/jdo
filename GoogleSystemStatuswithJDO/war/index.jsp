@@ -9,12 +9,14 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="javascript.js"></script>
 
 <style>
 .greycolor {
 	background-color: lightgrey;
 }
 </style>
+
 </head>
 
 
@@ -31,6 +33,7 @@
 	<div class="container">
 <div class="jumbotron">
 <h1>GOOGLE SYSTEM STATUS</h1>
+<p id="para">new</p>
 	</div>
 
 		<table class="table table-bordered" id="table">
@@ -63,9 +66,9 @@
 
 					<td><div id="22">
 					<form action="form.jsp">
-							<button class="btn22">+</button></form>
+							<button class="btn22" id="button22" onclick="a(this)">+</button></form>
 						</div></td>
-					<td><div id="23"><button class="btn22">+</button></div></td>
+					<td><div id="23"><button class="btn22" onclick="a(this)">+</button></div></td>
 					<td><div id="24"><button class="btn22">+</button></div></td>
 					<td><div id="25"><button class="btn22">+</button></div></td>
 					<td><div id="26"><button class="btn22">+</button></div></td>

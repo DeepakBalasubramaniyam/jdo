@@ -22,7 +22,9 @@
 .greycolor {
 	background-color: lightgrey;
 }
-
+#table1{
+width:150px;
+}
 #table2{
 position: absolute;
 top:0px;

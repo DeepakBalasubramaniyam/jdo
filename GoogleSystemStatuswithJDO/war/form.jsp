@@ -16,8 +16,8 @@
   <h2>ISSUE FORM</h2>
   <form role="form" action="/googlesystemstatuswithjdo" method="post">
     <div class="form-group">
-      <label>ENTER THE TIME FOR THE ISSUE:</label>
-      <input type="text" class="form-control" name="time"  placeholder="Enter the time">
+      <label>ENTER THE DATE FOR THE ISSUE:</label>
+      <input type="date" class="form-control" name="time" placeholder="Enter the time">
     </div>
     <div class="form-group">
       <label>ENTER THE REASON FOR THE ISSUE:</label>
